@@ -1,2 +1,2 @@
 # Online-Store
-مشروع موقع التجارة الإلكترونية هو منصة لبيع الهواتف الذكية، أجهزة اللابتوب، والإكسسوارات التقنية. يهدف لتوفير تجربة تسوق سهلة وآمنة مع واجهة مستخدم بسيطة، خيارات دفع مرنة، وتصفية متقدمة للمنتجات. يوفر الموقع خيارات شحن ودفع آمنة، ويهدف إلى تلبية احتياجات المستخدمين وتوفير أحدث الأجهزة بأفضل الأسعار.
+The e-commerce website project is a platform for selling smartphones, laptops, and tech accessories. It aims to provide an easy and secure shopping experience with a simple user interface, flexible payment options, and advanced product filtering. The site offers secure shipping and payment methods and aims to meet customer needs by offering the latest devices at the best prices.
