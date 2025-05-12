@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>E_Commerce_API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Database Backup\**" />
+    <Content Remove="Database Backup\**" />
+    <EmbeddedResource Remove="Database Backup\**" />
+    <None Remove="Database Backup\**" />
+  </ItemGroup>
+
+</Project>

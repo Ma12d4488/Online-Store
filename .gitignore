@@ -1,0 +1,44 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+out/
+
+# ASP.NET Publish
+publish/
+*.Publish.xml
+
+# User-specific files
+*.userosscache
+*.sln.docstates
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+
+# NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Frontend
+dist/
+.env
+.env.local
+*.cache
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
