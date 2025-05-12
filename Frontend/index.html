@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- main css file -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Goggle Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet" />
+  <title>Online Store</title>
+</head>
+
+<body>
+  <nav class="navbar w-100 position-fixed navbar-expand-lg navbar-light bg-dark">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-bold text-light" href="index.html">Online Store</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse flex-grow-0 fs-4 text-light navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-between me-auto mb-2 mb-lg-0 links">
+          <li class="nav-item">
+            <a class="nav-link text-light me-2" aria-current="page" href="Login.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="Register.html">Sign Up</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav justify-content-between flex-fill me-auto mb-2 mb-lg-0 align-items-center userinfo">
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page" href="profile.html"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page"
+              href="Favorites.html">Favorites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page"
+              href="./contact.html">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page"
+              href="./about.html">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page"
+              href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item cursor position-relative" id="cart-shopping">
+            <i class="fa-solid fa-cart-shopping"> </i>
+            <span class="cart-count">0</span>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link text-light me-2 logout fs-5" aria-current="page" href="Login.html">Logout <i
+                class="fa-solid fa-right-from-bracket"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <article>
+      <section class="section hero" style="background-image: url('./imgs/pc.webp')">
+        <div class="container">
+          <h2 class="h1 hero-title text-white"><strong>Shop the latest tech products</strong></h2>
+          <p class="hero-text">Discover the latest phones and smartphones at competitive prices and exclusive offers!
+          </p>
+          <a href="./shop.html" class="btn btn-primary">
+            <span>Shop Now</span>
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+  <section class="bg-dark text-light">
+    <div class="container-fluid px-4 bg-dark text-light">
+      <footer class="py-5">
+        <div class="row">
+          <!-- First column - Brand info -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="mb-3">ShopEasy</h5>
+            <p>Your one-stop destination for all your shopping needs with amazing deals and discounts.</p>
+            <div class="social-icons">
+              <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+
+          <!-- Second column - Quick Links -->
+          <div class="col-lg-2 col-md-4 col-6 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+              <li class="nav-item mb-2"><a href="shop.html" class="nav-link p-0 text-light">Shop</a></li>
+              <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-light">Contact</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-light">About</a></li>
+            </ul>
+          </div>
+
+          <!-- Third column - Categories -->
+          <div class="col-lg-2 col-md-4 col-6 mb-3">
+            <h5>Categories</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Electronics</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Clothing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home & Garden</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Sports</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Beauty</a></li>
+            </ul>
+          </div>
+
+          <!-- Fourth column - Customer Service -->
+          <div class="col-lg-2 col-md-4 col-6 mb-3">
+            <h5>Customer Service</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">My Account</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Order Tracking</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Wishlist</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Returns</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Shipping Info</a></li>
+            </ul>
+          </div>
+
+          <!-- Fifth column - Newsletter -->
+          <div class="col-lg-3 col-md-6 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="email" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top border-secondary">
+          <p>© 2025 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-light" href="#" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-light" href="#" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-light" href="#" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

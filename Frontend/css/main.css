@@ -1,0 +1,156 @@
+/* master.css */
+
+/* Fonts and basic resets */
+body {
+    font-family: 'DM Sans', 'Open Sans', sans-serif;
+    margin: 0;
+    padding-top: 0px;
+    /* Space for fixed navbar */
+    background-color: #f8f9fa;
+}
+
+/* start nav  */
+nav {
+    z-index: 999;
+}
+
+nav .nav-item.cursor {
+    cursor: pointer;
+}
+
+nav .userinfo {
+    display: none;
+}
+
+@media (min-width: 992) {
+    nav .collapse {
+        flex-basis: 50% !important;
+    }
+}
+
+nav .userinfo .nav-item span {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 15px;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.collection-list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    overflow-x: auto;
+}
+
+.collection-card {
+    min-width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-radius: 15px;
+    position: relative;
+}
+
+.collection-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.collection-card h3,
+.collection-card a {
+    position: relative;
+    z-index: 2;
+}
+
+.btn-secondary {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+}
+
+.btn-secondary:hover {
+    background-color: #e0a800;
+}
+
+.cart-count {
+    background: #ffc107;
+    color: black;
+    padding: 0 6px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.create {
+    bottom: 20px;
+    right: 20px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-weight: 700;
+    color: #333;
+}
+
+form label {
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    color: #ffc107 !important;
+}
+
+main.container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ddd;
+}

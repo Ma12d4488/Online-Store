@@ -1,0 +1,97 @@
+:root {
+  --main-color: #8e1616;
+  --alt-color: #d84040;
+  --background-color: #eeeeee;
+  --color: #d8a25e;
+}
+
+/* start nav  */
+nav {
+  z-index: 999;
+}
+
+nav .nav-item.cursor {
+  cursor: pointer;
+}
+
+nav .userinfo {
+  display: none;
+}
+
+@media (min-width: 992) {
+  nav .collapse {
+    flex-basis: 50% !important;
+  }
+}
+
+nav .userinfo .nav-item span {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 15px;
+}
+
+.create {
+  bottom: 20px;
+  right: 20px;
+}
+
+/* end nav  */
+/* start card  */
+.products-item {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.products-item .card {
+  height: 478px;
+}
+
+.products-item .card .card-title {
+  color: #0d6efd;
+}
+
+.products-item .card .heart {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 22px;
+  z-index: 22;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.products-item .card svg:hover {
+  color: #0d6efd;
+}
+
+.products-item .card img {
+  transition: 0.3s;
+  height: 220px;
+}
+
+.favorite {
+  color: #0d6efd !important;
+}
+
+.container .image {
+  padding-top: 90px;
+}
+
+.container .edit {
+  width: 110px;
+}
+
+.edit-section {
+  padding-top: 120px;
+}
+
+/* end card  */

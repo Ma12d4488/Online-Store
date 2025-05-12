@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- main css file -->
+  <link rel="stylesheet" href="css/master.css" />
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Goggle Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet" />
+  <title>Online Store</title>
+</head>
+
+<body>
+  <nav class="navbar w-100 position-fixed navbar-expand-lg navbar-light bg-dark">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-bold text-light" href="index.html">Online Store</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse flex-grow-0 fs-4 text-light navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-between me-auto mb-2 mb-lg-0 links">
+          <li class="nav-item">
+            <a class="nav-link text-light me-2" aria-current="page" href="Login.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="Register.html">Sign Up</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav justify-content-between flex-fill me-auto mb-2 mb-lg-0 align-items-center userinfo">
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page" href="profile.html"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page"
+              href="Favorites.html">Favorites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page"
+              href="./contact.html">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page"
+              href="./about.html">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light me-2 user fs-5 text-capitalize" aria-current="page"
+              href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item cursor position-relative" id="cart-shopping">
+            <i class="fa-solid fa-cart-shopping"> </i>
+            <span class="cart-count">0</span>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link text-light me-2 logout fs-5" aria-current="page" href="Login.html">Logout <i
+                class="fa-solid fa-right-from-bracket"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="products-item">
+    <div class="container">
+      <input class="search form-control mb-3 w-50 mx-auto" type="text" id="search" placeholder="search by name" />
+      <div class="row one"></div>
+    </div>
+  </div>
+  <button class="create btn btn-primary rounded-circle fs-4 position-fixed">
+    <i class="fa-solid fa-plus"></i>
+  </button>
+  <script src="js/main.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

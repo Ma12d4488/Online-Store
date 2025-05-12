@@ -1,0 +1,23 @@
+form {
+    box-shadow: 1px 1px 10px 1px #0000004a;
+}
+@media(min-width:768px) {
+    .container form{
+        width: 50% !important; 
+    }
+}
+.password-wrapper {
+    position: relative;
+    margin: 20px auto;
+  }
+
+  .password-wrapper .toggle-btn {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #6c757d;
+  }

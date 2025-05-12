@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/Login_register.css" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Goggle Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container">
+        <a class="navbar-brand fs-3 fw-bold text-light" href="index.html"
+          >Shopping Cart</a
+        >
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse flex-grow-0 fs-4 text-light navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light me-2"
+                aria-current="page"
+                href="Login.html"
+                >Sign In</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="Register.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <form
+        class="w-100 mx-auto mt-5 bg-light p-4 rounded bg-secondary text-dark"
+      >
+        <h2 class="mb-2 text-center">Welcome Back</h2>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">User Name</label>
+          <input
+            type="text"
+            class="form-control username"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter User Name "
+          />
+        </div>
+        <div class="password-wrapper">
+          <label for="exampleInputEmail1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control pass"
+            id="pass"
+            placeholder="Enter password"
+          />
+          <button class="toggle-btn" id="btn" data-status="hidden">
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-dark submit">Sign In</button>
+        <p class="text-center mt-3">
+          Don't have an account?
+          <a href="Register.html" class="text-decoration-none fw-bold text-dark"
+            >Sign Up</a
+          >
+        </p>
+      </form>
+    </div>
+    <script src="js/login.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
